@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset_train = pd.read_csv('/home/aniz/PycharmProjects/NeuralNetwork/src/RNN-LSTM/data/Google_Stock_Price_Train.csv')
+dataset_train = pd.read_csv('/home/aniz/PycharmProjects/NeuralNetwork/src/RNN_LSTM/data/Google_Stock_Price_Train.csv')
 training_set = dataset_train.iloc[:, 1:2].values
 
 # Feature Scaling

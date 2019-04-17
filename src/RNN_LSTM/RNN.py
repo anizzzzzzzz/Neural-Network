@@ -66,7 +66,7 @@ regressor.fit(X_train, y_train, epochs=100, batch_size=32)
 # Part 3 - Making the predictions and visualizing the results
 
 # Getting the real stock price of 2017
-dataset_test = pd.read_csv('/home/aniz/PycharmProjects/NeuralNetwork/src/RNN-LSTM/data/Google_Stock_Price_Test.csv')
+dataset_test = pd.read_csv('/home/aniz/PycharmProjects/NeuralNetwork/src/RNN_LSTM/data/Google_Stock_Price_Test.csv')
 real_stock_price = dataset_test.iloc[:, 1:2].values
 
 # Getting the predicted stock price of 2017
